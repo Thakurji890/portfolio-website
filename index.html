@@ -3,43 +3,89 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Porfolio</title>
+    <title>Porfolio | Manesh Thakur</title>
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
+    <!-- Navigation -->
+
+    <nav class="navbar">
+      <h2 class="logo">Manesh Thakur</h2>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <header class="hero">
       <h1>Manesh Thakur</h1>
       <p>Java Developer | Web Developer</p>
+      <a href="#projects" class="btn">View My Projects</a>
     </header>
 
-    <section>
+    <!-- About -->
+
+    <section id="about">
       <h2>About Me</h2>
-      <p>I build Java and Web projects.</p>
+      <p>
+        I build applications using Java, MySQL and Web Technologies. Passionate
+        about software development and solving real world problems.
+      </p>
     </section>
 
-    <section>
+    <!-- Skills -->
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill">Java</div>
+        <div class="skill">MySQL</div>
+        <div class="skill">Python</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">MongoDB</div>
+        <div class="skill">REST API</div>
+        <div class="skill">Express</div>
+        <div class="skill">Node JS</div>
+      </div>
+    </section>
+
+    <!-- Projects  -->
+
+    <section id="projects">
+      <h2>Projects</h2>
       <div class="project-box">
         <div class="project">
           <h3>Hospital Management System</h3>
-          <p>Java + MySQL desktop system for Hospital Management.</p>
+          <p>Java + MySQL desktop system for managing hospital operations.</p>
+          <button class="project-btn">View Project</button>
         </div>
         <div class="project">
           <h3>Weather Dashboard</h3>
-          <p>Weather web app using API</p>
+          <p>Real-time weather web app using Weather API.</p>
+          <button class="project-btn">View Project</button>
         </div>
         <div class="project">
           <h3>Calculator</h3>
-          <p>Basic Calculator build with JavaScript</p>
+          <p>Basic calculator built with HTML, CSS and JavaScript.</p>
+          <button class="project-btn">View Project</button>
         </div>
       </div>
     </section>
 
-    <section>
+    <!-- contact -->
+
+    <section id="contact">
       <h2>Contact</h2>
       <p>
         Email:
         <span
-          ><a href="maneshthakur890@gmail.com"></a
+          ><a href="mailto:maneshthakur890@gmail.com"></a
           >maneshthakur890@gmail.com</span
         >
       </p>
