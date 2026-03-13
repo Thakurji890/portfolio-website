@@ -89,7 +89,6 @@ cd portfolio-website
 
 - Add dark mode
 - Add project images
-- Add GitHub project links
 - Add animations using JavaScript
 - Improve mobile responsiveness
 
